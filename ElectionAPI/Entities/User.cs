@@ -9,8 +9,8 @@ namespace ElectionAPI.Entities
         public string? ProfileDetails { get; set; }
         public bool IsActive { get; set; } = true;
 
-        //public virtual ICollection<Vote> Votes { get; set; } = new List<Vote>();
-        //public virtual ICollection<Notification> Notifications { get; set; } = new List<Notification>();
-        //public virtual ICollection<UserRole> UserRoles { get; set; } = new List<UserRole>();
+        public virtual ICollection<Vote> Votes { get; set; } = new List<Vote>();
+        public virtual ICollection<Notification> Notifications { get; set; } = new List<Notification>();
+        public virtual ICollection<UserRole> UserRoles { get; set; } = new List<UserRole>();
     }
 }

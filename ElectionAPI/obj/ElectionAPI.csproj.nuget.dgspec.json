@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DotNet\\FinalProject\\ElectionAPI\\ElectionAPI\\ElectionAPI.csproj": {}
+    "E:\\DotNet\\Election Management System\\ElectionManagementSystem\\ElectionAPI\\ElectionAPI.csproj": {}
   },
   "projects": {
-    "D:\\DotNet\\FinalProject\\ElectionAPI\\ElectionAPI\\ElectionAPI.csproj": {
+    "E:\\DotNet\\Election Management System\\ElectionManagementSystem\\ElectionAPI\\ElectionAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DotNet\\FinalProject\\ElectionAPI\\ElectionAPI\\ElectionAPI.csproj",
+        "projectUniqueName": "E:\\DotNet\\Election Management System\\ElectionManagementSystem\\ElectionAPI\\ElectionAPI.csproj",
         "projectName": "ElectionAPI",
-        "projectPath": "D:\\DotNet\\FinalProject\\ElectionAPI\\ElectionAPI\\ElectionAPI.csproj",
-        "packagesPath": "C:\\Users\\munez\\.nuget\\packages\\",
-        "outputPath": "D:\\DotNet\\FinalProject\\ElectionAPI\\ElectionAPI\\obj\\",
+        "projectPath": "E:\\DotNet\\Election Management System\\ElectionManagementSystem\\ElectionAPI\\ElectionAPI.csproj",
+        "packagesPath": "C:\\Users\\Asifi\\.nuget\\packages\\",
+        "outputPath": "E:\\DotNet\\Election Management System\\ElectionManagementSystem\\ElectionAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\munez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Asifi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

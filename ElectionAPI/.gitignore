@@ -1,0 +1,44 @@
+# Ignore Visual Studio working folder
+.vs/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+Debug/
+Release/
+
+# NuGet packages
+packages/
+*.nupkg
+*.snupkg
+
+# Logs and temp files
+*.log
+*.tlog
+*.tmp
+*.cache
+
+# Visual Studio cache files
+*.vsidx
+*.vscode/
+*.VC.db
+*.VC.opendb
+
+# IIS Express
+iisexpress/
+
+# Rider / JetBrains
+.idea/
+*.DotSettings
+
+# Other generated files
+*.dbmdl
+*.jfm
+*.pdb
+*.mdb
