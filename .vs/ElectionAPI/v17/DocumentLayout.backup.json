@@ -1,0 +1,49 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\DotNet\\FinalProject\\ElectionAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EB8BB8D5-E80D-4805-9F3E-20D9C7CB1ADE}|ElectionAPI\\ElectionAPI.csproj|d:\\dotnet\\finalproject\\electionapi\\electionapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB8BB8D5-E80D-4805-9F3E-20D9C7CB1ADE}|ElectionAPI\\ElectionAPI.csproj|solutionrelative:electionapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\DotNet\\FinalProject\\ElectionAPI\\ElectionAPI\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "ElectionAPI\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\DotNet\\FinalProject\\ElectionAPI\\ElectionAPI\\Controllers\\UserController.cs",
+              "RelativeToolTip": "ElectionAPI\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T20:55:11.494Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
