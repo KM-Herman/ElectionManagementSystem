@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\DotNet\\Election Management System\\ElectionManagementSystem\\ElectionAPI\\ElectionAPI.csproj": {}
+    "D:\\DotNet\\FinalProject\\ElectionAPI\\ElectionAPI\\ElectionAPI.csproj": {}
   },
   "projects": {
-    "E:\\DotNet\\Election Management System\\ElectionManagementSystem\\ElectionAPI\\ElectionAPI.csproj": {
+    "D:\\DotNet\\FinalProject\\ElectionAPI\\ElectionAPI\\ElectionAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\DotNet\\Election Management System\\ElectionManagementSystem\\ElectionAPI\\ElectionAPI.csproj",
+        "projectUniqueName": "D:\\DotNet\\FinalProject\\ElectionAPI\\ElectionAPI\\ElectionAPI.csproj",
         "projectName": "ElectionAPI",
-        "projectPath": "E:\\DotNet\\Election Management System\\ElectionManagementSystem\\ElectionAPI\\ElectionAPI.csproj",
-        "packagesPath": "C:\\Users\\Asifi\\.nuget\\packages\\",
-        "outputPath": "E:\\DotNet\\Election Management System\\ElectionManagementSystem\\ElectionAPI\\obj\\",
+        "projectPath": "D:\\DotNet\\FinalProject\\ElectionAPI\\ElectionAPI\\ElectionAPI.csproj",
+        "packagesPath": "C:\\Users\\munez\\.nuget\\packages\\",
+        "outputPath": "D:\\DotNet\\FinalProject\\ElectionAPI\\ElectionAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Asifi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\munez\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -49,6 +49,12 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.SignalR.Common": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

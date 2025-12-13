@@ -3,6 +3,13 @@
   "WorkspaceRootPath": "E:\\DotNet\\Election Management System\\ElectionManagementSystem\\",
   "Documents": [
     {
+<<<<<<< HEAD
+      "AbsoluteMoniker": "D:0:0:{EB8BB8D5-E80D-4805-9F3E-20D9C7CB1ADE}|ElectionAPI\\ElectionAPI.csproj|d:\\dotnet\\finalproject\\electionapi\\electionapi\\hubs\\electionhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB8BB8D5-E80D-4805-9F3E-20D9C7CB1ADE}|ElectionAPI\\ElectionAPI.csproj|solutionrelative:electionapi\\hubs\\electionhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB8BB8D5-E80D-4805-9F3E-20D9C7CB1ADE}|ElectionAPI\\ElectionAPI.csproj|d:\\dotnet\\finalproject\\electionapi\\electionapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+=======
       "AbsoluteMoniker": "D:0:0:{EB8BB8D5-E80D-4805-9F3E-20D9C7CB1ADE}|ElectionAPI\\ElectionAPI.csproj|e:\\dotnet\\election management system\\electionmanagementsystem\\electionapi\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{EB8BB8D5-E80D-4805-9F3E-20D9C7CB1ADE}|ElectionAPI\\ElectionAPI.csproj|solutionrelative:electionapi\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
@@ -56,6 +63,7 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{EB8BB8D5-E80D-4805-9F3E-20D9C7CB1ADE}|ElectionAPI\\ElectionAPI.csproj|e:\\dotnet\\election management system\\electionmanagementsystem\\electionapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+>>>>>>> f6829cc65d4a282c46cd0c103f84badeb4214549
       "RelativeMoniker": "D:0:0:{EB8BB8D5-E80D-4805-9F3E-20D9C7CB1ADE}|ElectionAPI\\ElectionAPI.csproj|solutionrelative:electionapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -254,13 +262,34 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
+              "DocumentIndex": 0,
+              "Title": "ElectionHub.cs",
+              "DocumentMoniker": "D:\\DotNet\\FinalProject\\ElectionAPI\\ElectionAPI\\Hubs\\ElectionHub.cs",
+              "RelativeDocumentMoniker": "ElectionAPI\\Hubs\\ElectionHub.cs",
+              "ToolTip": "D:\\DotNet\\FinalProject\\ElectionAPI\\ElectionAPI\\Hubs\\ElectionHub.cs",
+              "RelativeToolTip": "ElectionAPI\\Hubs\\ElectionHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T19:42:05.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+=======
               "DocumentIndex": 13,
+>>>>>>> f6829cc65d4a282c46cd0c103f84badeb4214549
               "Title": "UserController.cs",
               "DocumentMoniker": "E:\\DotNet\\Election Management System\\ElectionManagementSystem\\ElectionAPI\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "ElectionAPI\\Controllers\\UserController.cs",
               "ToolTip": "E:\\DotNet\\Election Management System\\ElectionManagementSystem\\ElectionAPI\\Controllers\\UserController.cs",
               "RelativeToolTip": "ElectionAPI\\Controllers\\UserController.cs",
+<<<<<<< HEAD
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+=======
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
+>>>>>>> f6829cc65d4a282c46cd0c103f84badeb4214549
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-12T20:55:11.494Z",
               "EditorCaption": ""

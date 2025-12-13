@@ -1,8 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "w5ZVuWhkuJo=",
+  "dgSpecHash": "g0yjFcsxgNM=",
   "success": true,
-  "projectFilePath": "E:\\DotNet\\Election Management System\\ElectionManagementSystem\\ElectionAPI\\ElectionAPI.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\DotNet\\FinalProject\\ElectionAPI\\ElectionAPI\\ElectionAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\munez\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\10.0.1\\microsoft.aspnetcore.connections.abstractions.10.0.1.nupkg.sha512",
+    "C:\\Users\\munez\\.nuget\\packages\\microsoft.aspnetcore.signalr.common\\10.0.1\\microsoft.aspnetcore.signalr.common.10.0.1.nupkg.sha512",
+    "C:\\Users\\munez\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\10.0.1\\microsoft.bcl.asyncinterfaces.10.0.1.nupkg.sha512",
+    "C:\\Users\\munez\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.1\\microsoft.extensions.dependencyinjection.abstractions.10.0.1.nupkg.sha512",
+    "C:\\Users\\munez\\.nuget\\packages\\microsoft.extensions.features\\10.0.1\\microsoft.extensions.features.10.0.1.nupkg.sha512",
+    "C:\\Users\\munez\\.nuget\\packages\\microsoft.extensions.options\\10.0.1\\microsoft.extensions.options.10.0.1.nupkg.sha512",
+    "C:\\Users\\munez\\.nuget\\packages\\microsoft.extensions.primitives\\10.0.1\\microsoft.extensions.primitives.10.0.1.nupkg.sha512",
+    "C:\\Users\\munez\\.nuget\\packages\\system.io.pipelines\\10.0.1\\system.io.pipelines.10.0.1.nupkg.sha512",
+    "C:\\Users\\munez\\.nuget\\packages\\system.text.encodings.web\\10.0.1\\system.text.encodings.web.10.0.1.nupkg.sha512",
+    "C:\\Users\\munez\\.nuget\\packages\\system.text.json\\10.0.1\\system.text.json.10.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
