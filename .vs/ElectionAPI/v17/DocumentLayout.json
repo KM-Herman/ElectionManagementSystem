@@ -1,70 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\DotNet\\Election Management System\\ElectionManagementSystem\\",
+  "WorkspaceRootPath": "D:\\DotNet\\FinalProject\\ElectionAPI\\",
   "Documents": [
     {
-<<<<<<< HEAD
+      "AbsoluteMoniker": "D:0:0:{EB8BB8D5-E80D-4805-9F3E-20D9C7CB1ADE}|ElectionAPI\\ElectionAPI.csproj|d:\\dotnet\\finalproject\\electionapi\\electionapi\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB8BB8D5-E80D-4805-9F3E-20D9C7CB1ADE}|ElectionAPI\\ElectionAPI.csproj|solutionrelative:electionapi\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB8BB8D5-E80D-4805-9F3E-20D9C7CB1ADE}|ElectionAPI\\ElectionAPI.csproj|d:\\dotnet\\finalproject\\electionapi\\electionapi\\entities\\candidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB8BB8D5-E80D-4805-9F3E-20D9C7CB1ADE}|ElectionAPI\\ElectionAPI.csproj|solutionrelative:electionapi\\entities\\candidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB8BB8D5-E80D-4805-9F3E-20D9C7CB1ADE}|ElectionAPI\\ElectionAPI.csproj|d:\\dotnet\\finalproject\\electionapi\\electionapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB8BB8D5-E80D-4805-9F3E-20D9C7CB1ADE}|ElectionAPI\\ElectionAPI.csproj|solutionrelative:electionapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EB8BB8D5-E80D-4805-9F3E-20D9C7CB1ADE}|ElectionAPI\\ElectionAPI.csproj|d:\\dotnet\\finalproject\\electionapi\\electionapi\\hubs\\electionhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EB8BB8D5-E80D-4805-9F3E-20D9C7CB1ADE}|ElectionAPI\\ElectionAPI.csproj|solutionrelative:electionapi\\hubs\\electionhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB8BB8D5-E80D-4805-9F3E-20D9C7CB1ADE}|ElectionAPI\\ElectionAPI.csproj|d:\\dotnet\\finalproject\\electionapi\\electionapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-=======
-      "AbsoluteMoniker": "D:0:0:{EB8BB8D5-E80D-4805-9F3E-20D9C7CB1ADE}|ElectionAPI\\ElectionAPI.csproj|e:\\dotnet\\election management system\\electionmanagementsystem\\electionapi\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{EB8BB8D5-E80D-4805-9F3E-20D9C7CB1ADE}|ElectionAPI\\ElectionAPI.csproj|solutionrelative:electionapi\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB8BB8D5-E80D-4805-9F3E-20D9C7CB1ADE}|ElectionAPI\\ElectionAPI.csproj|e:\\dotnet\\election management system\\electionmanagementsystem\\electionapi\\.gitignore||{68B46364-D378-42F2-9E72-37D86C5F4468}",
-      "RelativeMoniker": "D:0:0:{EB8BB8D5-E80D-4805-9F3E-20D9C7CB1ADE}|ElectionAPI\\ElectionAPI.csproj|solutionrelative:electionapi\\.gitignore||{68B46364-D378-42F2-9E72-37D86C5F4468}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB8BB8D5-E80D-4805-9F3E-20D9C7CB1ADE}|ElectionAPI\\ElectionAPI.csproj|e:\\dotnet\\election management system\\electionmanagementsystem\\electionapi\\electionapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{EB8BB8D5-E80D-4805-9F3E-20D9C7CB1ADE}|ElectionAPI\\ElectionAPI.csproj|solutionrelative:electionapi\\electionapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB8BB8D5-E80D-4805-9F3E-20D9C7CB1ADE}|ElectionAPI\\ElectionAPI.csproj|e:\\dotnet\\election management system\\electionmanagementsystem\\electionapi\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB8BB8D5-E80D-4805-9F3E-20D9C7CB1ADE}|ElectionAPI\\ElectionAPI.csproj|solutionrelative:electionapi\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB8BB8D5-E80D-4805-9F3E-20D9C7CB1ADE}|ElectionAPI\\ElectionAPI.csproj|e:\\dotnet\\election management system\\electionmanagementsystem\\electionapi\\entities\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB8BB8D5-E80D-4805-9F3E-20D9C7CB1ADE}|ElectionAPI\\ElectionAPI.csproj|solutionrelative:electionapi\\entities\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB8BB8D5-E80D-4805-9F3E-20D9C7CB1ADE}|ElectionAPI\\ElectionAPI.csproj|e:\\dotnet\\election management system\\electionmanagementsystem\\electionapi\\entities\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB8BB8D5-E80D-4805-9F3E-20D9C7CB1ADE}|ElectionAPI\\ElectionAPI.csproj|solutionrelative:electionapi\\entities\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB8BB8D5-E80D-4805-9F3E-20D9C7CB1ADE}|ElectionAPI\\ElectionAPI.csproj|e:\\dotnet\\election management system\\electionmanagementsystem\\electionapi\\entities\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB8BB8D5-E80D-4805-9F3E-20D9C7CB1ADE}|ElectionAPI\\ElectionAPI.csproj|solutionrelative:electionapi\\entities\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB8BB8D5-E80D-4805-9F3E-20D9C7CB1ADE}|ElectionAPI\\ElectionAPI.csproj|e:\\dotnet\\election management system\\electionmanagementsystem\\electionapi\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB8BB8D5-E80D-4805-9F3E-20D9C7CB1ADE}|ElectionAPI\\ElectionAPI.csproj|solutionrelative:electionapi\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB8BB8D5-E80D-4805-9F3E-20D9C7CB1ADE}|ElectionAPI\\ElectionAPI.csproj|e:\\dotnet\\election management system\\electionmanagementsystem\\electionapi\\entities\\rolepermission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB8BB8D5-E80D-4805-9F3E-20D9C7CB1ADE}|ElectionAPI\\ElectionAPI.csproj|solutionrelative:electionapi\\entities\\rolepermission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB8BB8D5-E80D-4805-9F3E-20D9C7CB1ADE}|ElectionAPI\\ElectionAPI.csproj|e:\\dotnet\\election management system\\electionmanagementsystem\\electionapi\\entities\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB8BB8D5-E80D-4805-9F3E-20D9C7CB1ADE}|ElectionAPI\\ElectionAPI.csproj|solutionrelative:electionapi\\entities\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB8BB8D5-E80D-4805-9F3E-20D9C7CB1ADE}|ElectionAPI\\ElectionAPI.csproj|e:\\dotnet\\election management system\\electionmanagementsystem\\electionapi\\entities\\vote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB8BB8D5-E80D-4805-9F3E-20D9C7CB1ADE}|ElectionAPI\\ElectionAPI.csproj|solutionrelative:electionapi\\entities\\vote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB8BB8D5-E80D-4805-9F3E-20D9C7CB1ADE}|ElectionAPI\\ElectionAPI.csproj|e:\\dotnet\\election management system\\electionmanagementsystem\\electionapi\\entities\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB8BB8D5-E80D-4805-9F3E-20D9C7CB1ADE}|ElectionAPI\\ElectionAPI.csproj|solutionrelative:electionapi\\entities\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB8BB8D5-E80D-4805-9F3E-20D9C7CB1ADE}|ElectionAPI\\ElectionAPI.csproj|e:\\dotnet\\election management system\\electionmanagementsystem\\electionapi\\entities\\candidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB8BB8D5-E80D-4805-9F3E-20D9C7CB1ADE}|ElectionAPI\\ElectionAPI.csproj|solutionrelative:electionapi\\entities\\candidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB8BB8D5-E80D-4805-9F3E-20D9C7CB1ADE}|ElectionAPI\\ElectionAPI.csproj|e:\\dotnet\\election management system\\electionmanagementsystem\\electionapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
->>>>>>> f6829cc65d4a282c46cd0c103f84badeb4214549
-      "RelativeMoniker": "D:0:0:{EB8BB8D5-E80D-4805-9F3E-20D9C7CB1ADE}|ElectionAPI\\ElectionAPI.csproj|solutionrelative:electionapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DotNet\\FinalProject\\ElectionAPI\\ElectionAPI\\Controllers\\UserController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ElectionAPI\\Controllers\\UserController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,196 +30,62 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": ".gitignore",
-              "DocumentMoniker": "E:\\DotNet\\Election Management System\\ElectionManagementSystem\\ElectionAPI\\.gitignore",
-              "RelativeDocumentMoniker": "ElectionAPI\\.gitignore",
-              "ToolTip": "E:\\DotNet\\Election Management System\\ElectionManagementSystem\\ElectionAPI\\.gitignore",
-              "RelativeToolTip": "ElectionAPI\\.gitignore",
-              "ViewState": "AgIAACEAAAAAAAAAAAAowCwAAAAAAAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHgSURBVEhLtZVdTsJAFIWroTyDK3ELJuCbsA1ZhQRFRETkV6yV8AAsgAI\u002BugW3wAr0RUop7Tj3dmagtLXFhJOc3mEynXu\u002BSWmlg4oQcsSGqOFwSKcIzAcY7rFZdeZkWf42DOMsl7v8ZNsEazAYEMuyXF5zr7nXWG3bJqPRiMznc6Kqb1\u002BtdueUbePSMasoSASiN0sW2AJbwrSRMKwBJZNJKZVOJeJx\u002BaPRbHma\u002BDbAqzOMpBPa5DydxiZsSijGKoo30MZjrH8pm81iVRQFKygmxxNs6K9\u002Bv4/nvlqZ1CticBuOl8IGWS4NogsviWmuSe2p7uH2EMAKTQsn2FUmkxUnEKher4dPjH9ymjogva47BNXHWhgBXCRpomnOxB6KRKCqKhJsznoneUD6BSOoPFSjEUwnByJQlFf8l7rTO6ndyalZcm7TNEn5vhJG4CD8h\u002BAikwkn6HZf8F3jSSu8OfNt/yx0sqIEpbtyOAGsmE4nzsQeikTQ7jwTkxKItCyxX2qenBsIirelcAJAmB2KoNlq4/Psl1Z4K/UuQeGmGIGA6n02xbqPgIBuwH4FqN5o4vMMKYOSBhkI8oVrTwfPBwdWxOQYWt7D/P5duT768D7HJhFtU9MBVj5XyF\u002B59jywJOkX7ucXnGOxDX8AAAAASUVORK5CYII=",
-              "WhenOpened": "2025-12-12T22:24:57.976Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ElectionAPI",
-              "DocumentMoniker": "E:\\DotNet\\Election Management System\\ElectionManagementSystem\\ElectionAPI\\ElectionAPI.csproj",
-              "RelativeDocumentMoniker": "ElectionAPI\\ElectionAPI.csproj",
-              "ToolTip": "E:\\DotNet\\Election Management System\\ElectionManagementSystem\\ElectionAPI\\ElectionAPI.csproj",
-              "RelativeToolTip": "ElectionAPI\\ElectionAPI.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-12T22:22:57.09Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": ".gitignore",
-              "DocumentMoniker": "E:\\DotNet\\Election Management System\\ElectionManagementSystem\\ElectionAPI\\.gitignore",
-              "RelativeDocumentMoniker": "ElectionAPI\\.gitignore",
-              "ToolTip": "E:\\DotNet\\Election Management System\\ElectionManagementSystem\\ElectionAPI\\.gitignore",
-              "RelativeToolTip": "ElectionAPI\\.gitignore",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHgSURBVEhLtZVdTsJAFIWroTyDK3ELJuCbsA1ZhQRFRETkV6yV8AAsgAI\u002BugW3wAr0RUop7Tj3dmagtLXFhJOc3mEynXu\u002BSWmlg4oQcsSGqOFwSKcIzAcY7rFZdeZkWf42DOMsl7v8ZNsEazAYEMuyXF5zr7nXWG3bJqPRiMznc6Kqb1\u002BtdueUbePSMasoSASiN0sW2AJbwrSRMKwBJZNJKZVOJeJx\u002BaPRbHma\u002BDbAqzOMpBPa5DydxiZsSijGKoo30MZjrH8pm81iVRQFKygmxxNs6K9\u002Bv4/nvlqZ1CticBuOl8IGWS4NogsviWmuSe2p7uH2EMAKTQsn2FUmkxUnEKher4dPjH9ymjogva47BNXHWhgBXCRpomnOxB6KRKCqKhJsznoneUD6BSOoPFSjEUwnByJQlFf8l7rTO6ndyalZcm7TNEn5vhJG4CD8h\u002BAikwkn6HZf8F3jSSu8OfNt/yx0sqIEpbtyOAGsmE4nzsQeikTQ7jwTkxKItCyxX2qenBsIirelcAJAmB2KoNlq4/Psl1Z4K/UuQeGmGIGA6n02xbqPgIBuwH4FqN5o4vMMKYOSBhkI8oVrTwfPBwdWxOQYWt7D/P5duT768D7HJhFtU9MBVj5XyF\u002B59jywJOkX7ucXnGOxDX8AAAAASUVORK5CYII=",
-              "WhenOpened": "2025-12-12T22:24:16.797Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "RolePermission.cs",
-              "DocumentMoniker": "E:\\DotNet\\Election Management System\\ElectionManagementSystem\\ElectionAPI\\Entities\\RolePermission.cs",
-              "RelativeDocumentMoniker": "ElectionAPI\\Entities\\RolePermission.cs",
-              "ToolTip": "E:\\DotNet\\Election Management System\\ElectionManagementSystem\\ElectionAPI\\Entities\\RolePermission.cs",
-              "RelativeToolTip": "ElectionAPI\\Entities\\RolePermission.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T21:48:05.299Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Role.cs",
-              "DocumentMoniker": "E:\\DotNet\\Election Management System\\ElectionManagementSystem\\ElectionAPI\\Entities\\Role.cs",
-              "RelativeDocumentMoniker": "ElectionAPI\\Entities\\Role.cs",
-              "ToolTip": "E:\\DotNet\\Election Management System\\ElectionManagementSystem\\ElectionAPI\\Entities\\Role.cs",
-              "RelativeToolTip": "ElectionAPI\\Entities\\Role.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T21:46:51.516Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Position.cs",
-              "DocumentMoniker": "E:\\DotNet\\Election Management System\\ElectionManagementSystem\\ElectionAPI\\Entities\\Position.cs",
-              "RelativeDocumentMoniker": "ElectionAPI\\Entities\\Position.cs",
-              "ToolTip": "E:\\DotNet\\Election Management System\\ElectionManagementSystem\\ElectionAPI\\Entities\\Position.cs",
-              "RelativeToolTip": "ElectionAPI\\Entities\\Position.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T21:45:38.982Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Permission.cs",
-              "DocumentMoniker": "E:\\DotNet\\Election Management System\\ElectionManagementSystem\\ElectionAPI\\Entities\\Permission.cs",
-              "RelativeDocumentMoniker": "ElectionAPI\\Entities\\Permission.cs",
-              "ToolTip": "E:\\DotNet\\Election Management System\\ElectionManagementSystem\\ElectionAPI\\Entities\\Permission.cs",
-              "RelativeToolTip": "ElectionAPI\\Entities\\Permission.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T21:44:12.483Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AuditLog.cs",
-              "DocumentMoniker": "E:\\DotNet\\Election Management System\\ElectionManagementSystem\\ElectionAPI\\Entities\\AuditLog.cs",
-              "RelativeDocumentMoniker": "ElectionAPI\\Entities\\AuditLog.cs",
-              "ToolTip": "E:\\DotNet\\Election Management System\\ElectionManagementSystem\\ElectionAPI\\Entities\\AuditLog.cs",
-              "RelativeToolTip": "ElectionAPI\\Entities\\AuditLog.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T21:37:49.107Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "User.cs",
-              "DocumentMoniker": "E:\\DotNet\\Election Management System\\ElectionManagementSystem\\ElectionAPI\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "ElectionAPI\\Entities\\User.cs",
-              "ToolTip": "E:\\DotNet\\Election Management System\\ElectionManagementSystem\\ElectionAPI\\Entities\\User.cs",
-              "RelativeToolTip": "ElectionAPI\\Entities\\User.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAA9wA0AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T21:38:39.494Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UserRole.cs",
-              "DocumentMoniker": "E:\\DotNet\\Election Management System\\ElectionManagementSystem\\ElectionAPI\\Entities\\UserRole.cs",
-              "RelativeDocumentMoniker": "ElectionAPI\\Entities\\UserRole.cs",
-              "ToolTip": "E:\\DotNet\\Election Management System\\ElectionManagementSystem\\ElectionAPI\\Entities\\UserRole.cs",
-              "RelativeToolTip": "ElectionAPI\\Entities\\UserRole.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T21:49:11.455Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Vote.cs",
-              "DocumentMoniker": "E:\\DotNet\\Election Management System\\ElectionManagementSystem\\ElectionAPI\\Entities\\Vote.cs",
-              "RelativeDocumentMoniker": "ElectionAPI\\Entities\\Vote.cs",
-              "ToolTip": "E:\\DotNet\\Election Management System\\ElectionManagementSystem\\ElectionAPI\\Entities\\Vote.cs",
-              "RelativeToolTip": "ElectionAPI\\Entities\\Vote.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T21:50:09.851Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Notification.cs",
-              "DocumentMoniker": "E:\\DotNet\\Election Management System\\ElectionManagementSystem\\ElectionAPI\\Entities\\Notification.cs",
-              "RelativeDocumentMoniker": "ElectionAPI\\Entities\\Notification.cs",
-              "ToolTip": "E:\\DotNet\\Election Management System\\ElectionManagementSystem\\ElectionAPI\\Entities\\Notification.cs",
-              "RelativeToolTip": "ElectionAPI\\Entities\\Notification.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T21:42:48.473Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Candidate.cs",
-              "DocumentMoniker": "E:\\DotNet\\Election Management System\\ElectionManagementSystem\\ElectionAPI\\Entities\\Candidate.cs",
-              "RelativeDocumentMoniker": "ElectionAPI\\Entities\\Candidate.cs",
-              "ToolTip": "E:\\DotNet\\Election Management System\\ElectionManagementSystem\\ElectionAPI\\Entities\\Candidate.cs",
-              "RelativeToolTip": "ElectionAPI\\Entities\\Candidate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T21:41:21.61Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
-<<<<<<< HEAD
               "DocumentIndex": 0,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "D:\\DotNet\\FinalProject\\ElectionAPI\\ElectionAPI\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "ElectionAPI\\Services\\EmailService.cs",
+              "ToolTip": "D:\\DotNet\\FinalProject\\ElectionAPI\\ElectionAPI\\Services\\EmailService.cs",
+              "RelativeToolTip": "ElectionAPI\\Services\\EmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T21:20:41.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Candidate.cs",
+              "DocumentMoniker": "D:\\DotNet\\FinalProject\\ElectionAPI\\ElectionAPI\\Entities\\Candidate.cs",
+              "RelativeDocumentMoniker": "ElectionAPI\\Entities\\Candidate.cs",
+              "ToolTip": "D:\\DotNet\\FinalProject\\ElectionAPI\\ElectionAPI\\Entities\\Candidate.cs",
+              "RelativeToolTip": "ElectionAPI\\Entities\\Candidate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T21:20:23.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\DotNet\\FinalProject\\ElectionAPI\\ElectionAPI\\Program.cs",
+              "RelativeDocumentMoniker": "ElectionAPI\\Program.cs",
+              "ToolTip": "D:\\DotNet\\FinalProject\\ElectionAPI\\ElectionAPI\\Program.cs",
+              "RelativeToolTip": "ElectionAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T21:18:33.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ElectionHub.cs",
               "DocumentMoniker": "D:\\DotNet\\FinalProject\\ElectionAPI\\ElectionAPI\\Hubs\\ElectionHub.cs",
               "RelativeDocumentMoniker": "ElectionAPI\\Hubs\\ElectionHub.cs",
@@ -271,28 +93,19 @@
               "RelativeToolTip": "ElectionAPI\\Hubs\\ElectionHub.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T19:42:05.114Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-13T19:42:05.114Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-=======
-              "DocumentIndex": 13,
->>>>>>> f6829cc65d4a282c46cd0c103f84badeb4214549
+              "DocumentIndex": 4,
               "Title": "UserController.cs",
-              "DocumentMoniker": "E:\\DotNet\\Election Management System\\ElectionManagementSystem\\ElectionAPI\\Controllers\\UserController.cs",
+              "DocumentMoniker": "D:\\DotNet\\FinalProject\\ElectionAPI\\ElectionAPI\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "ElectionAPI\\Controllers\\UserController.cs",
-              "ToolTip": "E:\\DotNet\\Election Management System\\ElectionManagementSystem\\ElectionAPI\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\DotNet\\FinalProject\\ElectionAPI\\ElectionAPI\\Controllers\\UserController.cs",
               "RelativeToolTip": "ElectionAPI\\Controllers\\UserController.cs",
-<<<<<<< HEAD
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
-=======
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
->>>>>>> f6829cc65d4a282c46cd0c103f84badeb4214549
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T20:55:11.494Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-12T20:55:11.494Z"
             }
           ]
         }

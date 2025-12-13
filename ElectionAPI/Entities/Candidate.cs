@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Routing.Matching;
+﻿using ElectionAPI.Enum;
+using Microsoft.AspNetCore.Routing.Matching;
 
 namespace ElectionAPI.Entities
 {
