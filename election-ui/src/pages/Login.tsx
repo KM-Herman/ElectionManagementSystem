@@ -121,7 +121,7 @@ export const Login: React.FC = () => {
                             <input
                                 type="text"
                                 className="w-full px-4 py-3 rounded-lg bg-white/10 border border-white/20 text-white placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent transition-all tracking-widest text-center text-xl"
-                                placeholder="123456"
+                                placeholder="•-•-•-•-•-•"
                                 value={otp}
                                 onChange={(e) => setOtp(e.target.value)}
                                 required
