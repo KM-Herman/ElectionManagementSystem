@@ -107,6 +107,11 @@ export const Login: React.FC = () => {
                                 required
                             />
                         </div>
+                        <div className="flex justify-end">
+                            <span className="text-sm text-blue-200 hover:text-white cursor-pointer transition-colors" onClick={() => navigate('/forgot-password')}>
+                                Forgot Password?
+                            </span>
+                        </div>
                         <button
                             type="submit"
                             className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 rounded-lg shadow-lg hover:shadow-blue-500/50 transition-all transform hover:-translate-y-0.5"

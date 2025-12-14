@@ -16,7 +16,7 @@ export const VoterDashboard: React.FC = () => {
     const [activeTab, setActiveTab] = useState<'home' | 'apply' | 'profile' | 'notifications'>('home');
     const [notifications, setNotifications] = useState<Notification[]>([]);
 
-    // Forms
+
     const [application, setApplication] = useState<CandidateApplicationRequest>({
         positionId: 0,
         manifesto: '',

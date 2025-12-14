@@ -128,5 +128,38 @@ namespace ElectionAPI.Services
 
             return (true, token, string.Empty);
         }
+
+        public async Task<(bool Success, string Error)> ForgotPasswordAsync(string email)
+        {
+            var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == email);
+            if (user == null) return (false, "User not found");
+
+            // Generate OTP
+            var otp = new Random().Next(100000, 999999).ToString();
+            user.OtpCode = otp;
+            user.OtpExpiry = DateTime.UtcNow.AddMinutes(15);
+            await _context.SaveChangesAsync();
+
+            // Send Email
+            await _emailService.SendEmailAsync(user.Email, "Reset Password OTP", $"Your OTP for password reset is: {otp}");
+
+            return (true, string.Empty);
+        }
+
+        public async Task<(bool Success, string Error)> ResetPasswordAsync(string email, string otp, string newPassword)
+        {
+            var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == email);
+            if (user == null) return (false, "User not found");
+
+            if (user.OtpCode != otp || user.OtpExpiry < DateTime.UtcNow)
+                return (false, "Invalid or Expired OTP");
+
+            user.PasswordHash = BCrypt.Net.BCrypt.HashPassword(newPassword);
+            user.OtpCode = null;
+            user.OtpExpiry = null;
+            
+            await _context.SaveChangesAsync();
+            return (true, string.Empty);
+        }
     }
 }
