@@ -121,6 +121,7 @@ export const AdminDashboard: React.FC = () => {
             await api.put(`/admin/candidates/${candidateId}/approve`);
             toast.success("Candidate Approved");
             fetchPendingCandidates();
+            fetchUsers(); // Refresh user list to show new role
             fetchStats(); // Update stats as candidate count increases
         } catch (err) {
             toast.error("Failed to approve candidate");
@@ -140,6 +141,13 @@ export const AdminDashboard: React.FC = () => {
             fetchPendingCandidates();
             fetchUsers();
             toast.info("Dashboard updated via live signal.");
+        });
+
+        connection.on("CandidateApproved", (userId: number) => {
+            setUsers(prevUsers => prevUsers.map(u =>
+                u.id === userId ? { ...u, role: 'Candidate' } : u
+            ));
+            fetchPendingCandidates(); // Ensure pending list is also cleared if not already
         });
 
         // Also listen for ReceiveNotification for logs?
@@ -215,7 +223,7 @@ export const AdminDashboard: React.FC = () => {
                 {activeTab === 'overview' && (
                     <div className="space-y-8 animate-fadeIn">
                         <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
-                            <StatCard title="Total Voters" value={stats.totalUsers} color="bg-blue-500" />
+                            <StatCard title="Total Users" value={stats.totalUsers} color="bg-blue-500" />
                             <StatCard title="Votes Cast" value={stats.totalVotes} color="bg-purple-500" />
                             <StatCard title="Candidates" value={stats.totalCandidates} color="bg-green-500" />
                             <StatCard title="Participation" value="78%" color="bg-orange-400" />

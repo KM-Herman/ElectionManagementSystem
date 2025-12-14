@@ -66,5 +66,21 @@ namespace ElectionAPI.Controllers
 
             return Ok(new AuthResponse(result.Token, string.Empty));
         }
+
+        [HttpPost("forgot-password")]
+        public async Task<IActionResult> ForgotPassword([FromBody] ForgotPasswordRequest request)
+        {
+            var (success, error) = await _authService.ForgotPasswordAsync(request.Email);
+            if (!success) return BadRequest(new { error });
+            return Ok(new { message = "Password reset OTP sent to email." });
+        }
+
+        [HttpPost("reset-password")]
+        public async Task<IActionResult> ResetPassword([FromBody] ResetPasswordRequest request)
+        {
+            var (success, error) = await _authService.ResetPasswordAsync(request.Email, request.Otp, request.NewPassword);
+            if (!success) return BadRequest(new { error });
+            return Ok(new { message = "Password reset successfully." });
+        }
     }
 }
