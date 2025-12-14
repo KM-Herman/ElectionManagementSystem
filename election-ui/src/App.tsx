@@ -5,7 +5,7 @@ import { PermissionGate } from './components/PermissionGate';
 import { Login } from './pages/Login';
 import { Signup } from './pages/Signup';
 import { AdminDashboard } from './pages/AdminDashboard';
-import { CandidateDashboard } from './pages/CandidateDashboar';
+import { CandidateDashboard } from './pages/CandidateDashboard';
 import { DashboardLayout } from './layouts/DashboardLayout';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';

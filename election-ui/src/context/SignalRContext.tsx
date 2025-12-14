@@ -34,12 +34,9 @@ export const SignalRProvider: React.FC<{ children: React.ReactNode }> = ({ child
             connection.start()
                 .then(() => {
                     console.log('SignalR Connected');
-                    // Optional: Connection ID logging
                     console.log('Connection ID:', connection.connectionId);
                 })
                 .catch(err => console.error('SignalR Connection Error: ', err));
-
-            // Clean up on unmount or connection change
             return () => {
                 connection.stop();
             };
