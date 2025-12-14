@@ -1,3 +1,42 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.glass {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.auth-bg {
+    background: radial-gradient(circle at 10% 20%, rgb(0, 50, 200) 0%, rgb(0, 10, 50) 90%);
+    position: relative;
+    overflow: hidden;
+}
+
+/* Abstract shapes for auth bg */
+.auth-bg::before,
+.auth-bg::after {
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(50px);
+    opacity: 0.5;
+}
+
+.auth-bg::before {
+    background: #3b82f6;
+    width: 400px;
+    height: 400px;
+    top: -100px;
+    left: -100px;
+}
+
+.auth-bg::after {
+    background: #06b6d4;
+    width: 300px;
+    height: 300px;
+    bottom: -50px;
+    right: -50px;
+}
