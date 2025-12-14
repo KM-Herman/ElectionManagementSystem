@@ -85,7 +85,8 @@ namespace ElectionAPI.Services
                 Name = name,
                 Email = email,
                 PasswordHash = passwordHash,
-                IsActive = true
+                IsActive = true,
+                ProfileDetails = string.Empty
             };
 
             _context.Users.Add(user);

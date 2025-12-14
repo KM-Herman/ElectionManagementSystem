@@ -95,7 +95,7 @@ export const AdminDashboard: React.FC = () => {
         e.preventDefault();
         try {
             await api.post('/admin/notification/broadcast', {
-                targetGroup: targetGroup, // Using state
+                targetGroup: targetGroup,
                 message: broadcastMessage
             });
             toast.success("Broadcast Sent!");
@@ -270,8 +270,18 @@ export const AdminDashboard: React.FC = () => {
                                             </td>
                                             <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
                                                 <div className="flex gap-2">
-                                                    <button onClick={() => handleUpdateRole(user.id, user.role)} className="text-blue-600 hover:text-blue-900">Edit Role</button>
-                                                    <button onClick={() => handleDeleteUser(user.id)} className="text-red-600 hover:text-red-900">Delete</button>
+                                                    <button
+                                                        onClick={() => handleUpdateRole(user.id, user.role)}
+                                                        className="bg-blue-50 text-blue-600 hover:bg-blue-100 px-3 py-1 rounded text-xs font-semibold border border-blue-200 transition-colors"
+                                                    >
+                                                        Edit Role
+                                                    </button>
+                                                    <button
+                                                        onClick={() => handleDeleteUser(user.id)}
+                                                        className="bg-red-50 text-red-600 hover:bg-red-100 px-3 py-1 rounded text-xs font-semibold border border-red-200 transition-colors"
+                                                    >
+                                                        Delete
+                                                    </button>
                                                 </div>
                                             </td>
                                         </tr>

@@ -18,7 +18,7 @@ namespace ElectionAPI.Services
 
         public string GenerateToken(User user, List<string> permissions)
         {
-            var keyStr = _configuration["Jwt:Key"] ?? "SuperSecretKeyThatIsLongEnoughForHMACSHA256!";
+            var keyStr = _configuration["Jwt:Key"] ?? "5c2f3c9b8f2e4a1d7a6e0b9c4f8d3a7e6c5e9f1a4b2d8c7e0a9b6f3d2c1e8";
             var issuer = _configuration["Jwt:Issuer"] ?? "ElectionMGT";
             var audience = _configuration["Jwt:Audience"] ?? "ElectionMGTUsers";
 
