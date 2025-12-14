@@ -6298,23 +6298,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Users\\munez\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ElectionManagementSystem\\ElectionAPI\\ElectionAPI.csproj",
+      "projectUniqueName": "D:\\DotNet\\FinalProject\\ElectionAPI\\ElectionAPI\\ElectionAPI.csproj",
       "projectName": "ElectionAPI",
-      "projectPath": "D:\\ElectionManagementSystem\\ElectionAPI\\ElectionAPI.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\ElectionManagementSystem\\ElectionAPI\\obj\\",
+      "projectPath": "D:\\DotNet\\FinalProject\\ElectionAPI\\ElectionAPI\\ElectionAPI.csproj",
+      "packagesPath": "C:\\Users\\munez\\.nuget\\packages\\",
+      "outputPath": "D:\\DotNet\\FinalProject\\ElectionAPI\\ElectionAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\munez\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -6409,7 +6409,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

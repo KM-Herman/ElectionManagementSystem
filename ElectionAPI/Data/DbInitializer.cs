@@ -73,7 +73,7 @@ namespace ElectionAPI.Data
             }
             await context.SaveChangesAsync();
 
-            if (!await context.Users.AnyAsync(u => u.Email == "admin@yopmail.com"))
+            if (!await context.Users.AnyAsync(u => u.Email == "adminelect@yopmail.com"))
             {
                 var adminUser = new User
                 {
