@@ -91,6 +91,7 @@ namespace ElectionAPI.Controllers
         public async Task<IActionResult> GetUsers()
         {
             var users = await _context.Users
+                .Where(u => u.IsActive)
                 .Include(u => u.UserRoles)
                 .ThenInclude(ur => ur.Role)
                 .Select(u => new 
@@ -115,14 +116,11 @@ namespace ElectionAPI.Controllers
             var newRole = await _context.Roles.FirstOrDefaultAsync(r => r.Name == request.RoleName);
             if (newRole == null) return BadRequest("Role not found");
 
-            // Clear existing roles (assuming single role per user for simplicity)
             _context.UserRoles.RemoveRange(user.UserRoles);
             
-            // Add new role
             user.UserRoles.Add(new UserRole { UserId = user.Id, RoleId = newRole.Id });
             await _context.SaveChangesAsync();
 
-            // Broadcast role update
             await _hubContext.Clients.All.SendAsync("RoleUpdated", user.Id, request.RoleName);
 
             return Ok($"User role updated to {request.RoleName}");
@@ -135,10 +133,8 @@ namespace ElectionAPI.Controllers
             var user = await _context.Users.FindAsync(id);
             if (user == null) return NotFound("User not found");
 
-            // Check if deleting self?
-            // Optional safety check needed here? 
-
-            _context.Users.Remove(user);
+            // Soft Delete
+            user.IsActive = false;
             await _context.SaveChangesAsync();
 
             return Ok("User deleted successfully.");
